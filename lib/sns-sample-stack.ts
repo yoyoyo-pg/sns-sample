@@ -8,8 +8,10 @@ export class SnsSampleStack extends cdk.Stack {
 
     // SNSトピックを作成
     const topic = new sns.Topic(this, 'Topic', {
-      topicName: 'pushTopic',
+      topicName: 'sampleTopic',
     });
+
+
 
   }
 }
