@@ -1,14 +1,18 @@
-# Welcome to your CDK TypeScript project
+# SNS Sample
+This repository is a sample of AWS CDK sample code written using Claude3
 
-This is a blank project for CDK development with TypeScript.
+It is left as an article on Qiita -> [Claude 3とAWS CDKを使い爆速でAWSの検証が出来る環境を手に入れよう！](https://qiita.com/yoyoyo_pg/items/dc3c0e5f4c9af9be9214)
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
-## Useful commands
+## Content
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `npx cdk deploy`  deploy this stack to your default AWS account/region
-* `npx cdk diff`    compare deployed stack with current state
-* `npx cdk synth`   emits the synthesized CloudFormation template
+CDK Repository
+
+- Lambda
+  - using nodejsfunctions （L2 construct）
+  - SNS publish
+- SNS
+  - topic
+  - subscription
+
+devcontainer
